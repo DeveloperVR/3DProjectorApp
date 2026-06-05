@@ -17,8 +17,8 @@ public class SideBySideStereoSetup : MonoBehaviour
         }
 
         // Position eyes relative to the rig center
-        leftEye.transform.localPosition = new Vector3(-ipd * 0.5f, 0f, 0f);
-        rightEye.transform.localPosition = new Vector3(ipd * 0.5f, 0f, 0f);
+        //leftEye.transform.localPosition = new Vector3(-ipd * 0.5f, 0f, 0f);
+        //rightEye.transform.localPosition = new Vector3(ipd * 0.5f, 0f, 0f);
 
         leftEye.transform.localRotation = Quaternion.identity;
         rightEye.transform.localRotation = Quaternion.identity;
